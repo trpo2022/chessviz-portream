@@ -13,7 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build Tests
-      run: make test
-    - name: Run Tests
-      run: make test-start
+    - name: clean
+      run: sudo make clean
+    - name: make test
+      run: sudo make test
+    - name: make test-start
+      run: sudo make test-start
