@@ -36,7 +36,7 @@ void printBoard(char boardrr[board_size][board_size])
 void loadingAnimation(int move_cnt)
 {
     if (move_cnt == 1 || move_cnt == 0)
-        cout << "Загрузка игры"
+        cout << "Загрузка игры";
                 
     else {
         if (move_cnt % 2 != 0)
