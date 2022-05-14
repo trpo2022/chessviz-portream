@@ -5,7 +5,7 @@ TEST_NAME = chessviz-test
 CXX = g++
 CFLAGS = -Wall -Wextra -Werror
 CPPFLAGS = -I src -MP -MMD
-CPPFLAGST = -I libs-MP -MMD
+CPPFLAGST = -I libs -MP -MMD
 LDFLAGS =
 LDLIBS = -lm
 

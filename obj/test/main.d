@@ -1,3 +1,3 @@
-obj/test/main.o: test/main.cpp thirdparty/ctest.h
+obj/test/main.o: test/main.cpp libs/ctest.h
 
-thirdparty/ctest.h:
+libs/ctest.h:
